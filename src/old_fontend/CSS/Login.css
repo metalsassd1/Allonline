@@ -1,0 +1,252 @@
+/* ชินวัตร บูรพา */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap') ;
+
+*{
+    box-sizing: border-box !important;
+}
+
+.container1{
+    width: 40% ;
+    text-align: center ;
+    border: 1px solid #fff;
+    display: block;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+}
+
+.Heading{
+    color: #195DBD !important;
+    text-align: center !important;
+    margin-top: 5% !important;
+    font-family: 'Kanit', sans-serif !important;
+    font-size: 2rem !important;
+}
+
+.Heading2{
+    color: #195DBD !important;
+    text-align: center !important;
+    margin-top: 2% !important;
+    font-family: 'Kanit', sans-serif !important ;
+    font-size: 2rem !important;
+}
+
+.form-headline{
+    content: "" !important;
+    display: block !important;
+    width: 20% !important;
+    height: 2px !important;
+    margin-bottom: 20px !important;
+    margin-left: 40% !important;
+    background-image: repeating-linear-gradient(90deg, rgb(217, 222, 227), rgb(217, 222, 227) 6px, transparent 4px, transparent 10px) !important;
+}
+
+.Input-Email{
+    padding-bottom: 10px !important;
+}
+
+
+.Input-Password{
+    padding-bottom: 10px !important;
+}
+
+.input-email-form:focus{
+    border: 1px solid #bdbdbd !important;
+    border-radius: 30px !important;
+    width: 500px !important;
+    height: 50px !important;
+    padding-left: 20px !important;
+}
+
+.input-password-form{
+    border: 1px solid #bdbdbd !important;
+    border-radius: 30px !important;
+    width: 500px !important;
+    height: 50px !important; 
+    padding-left: 20px !important;
+}
+
+
+
+.button{
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    margin-top: 20px !important;
+    font-size: 1.5rem !important;
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.signUp{
+    border: 1px solid #195DBD !important; 
+    border-radius: 30px !important;
+    width: 245px !important;
+    height: 50px !important; 
+    color: rgb(25, 93, 189) !important;
+    background-color: #fff !important;
+    padding: 9px 9px 9px 9px !important;
+    margin-right: 5px !important;
+    text-align: center !important;
+}
+
+.signIn{
+    border: 2px solid #195DBD !important; 
+    border-radius: 30px !important;
+    width: 245px !important;
+    height: 50px !important; 
+    color: rgb(25, 93, 189) !important;
+    background-color: #195DBD !important;
+    color: #fff !important;
+    padding: 9px 9px 9px 9px !important;
+    text-align: center !important;
+    cursor: pointer !important;
+}
+
+.signIn:hover{
+    background-color: #fff !important;
+    color: #195DBD !important;
+    transition: 0.3s ease !important;
+}
+
+.signUp:hover{
+    background-color: #195DBD !important;
+    color: #fff !important;
+    transition: 0.3s ease !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+textarea:focus, input:focus{
+    outline-color: #eee !important;
+}
+
+.google{
+    border: 1px solid red !important; 
+    border-radius: 30px !important;
+    width: 245px !important;
+    height: 50px !important; 
+    color: #fff !important;
+    background-color: red !important;
+    padding: 9px 9px 9px 9px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer;
+}
+
+.facebook{
+    border: 1px solid #195DBD !important; 
+    border-radius: 30px !important;
+    width: 245px !important;
+    height: 50px !important; 
+    color: #fff !important;
+    background-color: #fff !important;
+    padding: 10px 10px 10px 10px !important;
+    text-align: center !important;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #195DBD !important;
+}
+
+.textfacebook{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.facebook:hover{
+    background-color: #fff !important;
+    color: #195DBD !important;
+    transition: 0.3s ease !important;
+}
+
+.google:hover{
+    background-color: #fff !important;
+    color: red !important;
+    transition: 0.3s ease !important;
+}
+
+
+
+.ADMIN{
+    border: 1px solid #195DBD !important; 
+    border-radius: 30px !important;
+    width: 245px !important;
+    height: 50px !important; 
+    color: rgb(25, 93, 189) !important;
+    background-color: #fff !important;
+    padding: 9px 9px 9px 9px !important;
+    margin-right: 5px !important;
+    text-align: center !important;
+    margin-bottom: 10px;
+}
+
+.ADMIN:hover{
+    background-color: #195DBD !important;
+    color: #fff !important;
+    transition: 0.3s ease !important;
+}
+
+
+/* Style the checkbox */
+input[type="checkbox"] {
+    /* Hide the default checkbox */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Set the size and position of the checkbox */
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #999999;
+    border-radius: 3px;
+    position: relative;
+    /* Set the background color of the checkbox */
+    background-color: #ffffff;
+  }
+  
+  /* Style the checkbox when checked */
+  input[type="checkbox"]:checked::before {
+    /* Show a checkmark icon */
+    content: "\2714";
+    /* Position the checkmark in the center of the checkbox */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Style the checkmark */
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+  }
+  
+  /* Style the checkbox label */
+  .checkbox{
+    display: flex;
+    align-items: start;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-transform: lowercase;
+}
+  
+  /* Style the label text */
+  label span {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333333;
+  }
+  

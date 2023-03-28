@@ -1,0 +1,95 @@
+/*ชินวัตร บูรพา*/ 
+
+/* Basic Styling
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  } */
+  /* Columns */
+.left-column {
+    width: 65%;
+    position: relative;
+  }
+   
+  .right-column {
+    display: flex;
+    margin-left: 55%;
+    margin-top: 10%;
+    width: 35%;
+    margin-top: 60px;
+  }
+  /* Left Column */
+.left-column img {
+    width: 70%;
+    /* border: 1px solid black; */
+    /* border-radius: 30%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* box-shadow: 1px 1px 10px ; */
+  }
+   
+  .left-column img.active {
+    opacity: 1;
+  }
+  /* Product Description */
+
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+    margin-top: 25%;
+  }
+  .product-description span {
+    font-size: 12px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+  }
+
+
+  /* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+  }
+   
+  .product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+  }
+   
+  .cart-btn {
+    display: inline-block;
+    background-color: #7DC855;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+  }
+  .cart-btn:hover {
+    background-color: #64af3d;
+  }
+
+  h2{
+    color: #25b742;
+  }
